@@ -1,6 +1,11 @@
 package Arrays;
 
 public class ArrayApp {
+	
+	/**
+	 * Created by surendra_vidiyala on 02/05/18.
+	 */
+
 
 	public static void main(String[] args) {
 
@@ -34,5 +39,6 @@ public class ArrayApp {
 		for (int i = 0; i < fruits.length; i++) {
 			System.out.println(fruits[i]);
 		}
+		
 	}
 }
