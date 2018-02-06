@@ -1,6 +1,10 @@
 package  Linkedlists;
 
 public class Node<T extends Comparable<T>> {
+	
+	/**
+	 * Created by surendra_vidiyala on 02/05/18.
+	 */
 
     private T data;
     private Node<T> nextNode;

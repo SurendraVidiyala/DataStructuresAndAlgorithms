@@ -1,6 +1,10 @@
 package Linkedlists;
 
 public class LinkedList<T extends Comparable<T>> implements List<T> {
+	
+	/**
+	 * Created by surendra_vidiyala on 02/05/18.
+	 */
 
     private Node<T> root;
     private int sizeCounter;
@@ -42,7 +46,7 @@ public class LinkedList<T extends Comparable<T>> implements List<T> {
         Node<T> node = this.root;
 
         while (node != null) {
-            System.out.print(node + " ");
+            System.out.print(node + " --> ");
             node = node.getNextNode();
         }
     }

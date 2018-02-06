@@ -3,7 +3,7 @@ package Lists;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ArrayListApp {
+public class ArrayLists {
 
 	/**
 	 * Created by surendra_vidiyala on 02/05/18.
@@ -71,6 +71,7 @@ public class ArrayListApp {
 
 		// removing an element at index(3)
 		System.out.println("Removed element: " + list.remove(6));
+
 
 	}
 
